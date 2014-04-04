@@ -1,0 +1,154 @@
+body{
+	background-color:#B6B6B4;
+}
+a,a:hover{
+	color:white;
+	text-decoration: none;
+}
+.profile{
+	width:150px;
+	margin-left: 250px;
+}
+.contact{
+	width:160px;
+	margin-left: 5px;
+}
+.profile,.contact{
+	height:38px;
+	margin-top: 20px;
+	border-radius: 30px 10px / 10px 30px;
+	display:inline-block;
+	background: gray;
+}
+.profile h2,.contact h2{
+	text-align: center;
+	font-family: 'Gafata', cursive;
+	color:white;
+	margin-top: 5px;
+}
+
+.container{
+	background-image: url(./background.png);
+	width:730px;
+	height:1000px;
+	padding-top:10px;
+	margin-top: -5px;
+	margin-left: 220px;
+	border-radius: 30px 10px / 10px 30px;
+	border: 5px solid gray;
+}
+
+.title{
+	width:500px;
+	height:150px;
+	margin-left: 90px;
+	margin-top: -15px;
+}
+.title,.photo{
+	display:inline-block;
+}
+h1{
+	font-size: 75px;
+ 	font-family: 'Aclonica', cursive,Georgia,Serif;
+ 	color: #463E3F;
+ 	text-shadow:3px 3px 3px #848482;
+}
+.photo{
+	margin-top:-30px;
+	margin-left:320px;
+	float:left;
+}
+#my_photo{
+	width:240px;
+	height:320px;
+ 	padding: 0.7em;
+ 	background-color: #F7E7CE;
+ 	border-radius: 50px 280px / 60px 50px;
+}
+
+/* caption format */
+.emily,.edu,.skl,.favquo{
+	color:white;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	padding: 0.5em;
+	font-size: 1.3em;
+	margin-bottom: 0.4em;
+}
+/* caption color & width */
+.emily{
+	background-color: #FF7F50; /* coral */
+	width: 110px;
+}
+.edu{
+	background-color: #81D8D0; /* tiffany blue */
+	width: 100px;
+}
+.skl{
+	background-color: #79BAEC; /* denim blue */
+	width:50px;
+}
+.favquo{
+	background-color: #F778A1; /* carnation pink */
+	width: 150px;
+}
+
+.about_me,.education,.skills{
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 3em;
+	margin-top: 1.5em;
+	margin-bottom: 1.7em;
+	padding-bottom: 5px;
+}
+
+/* left border color */
+.about_me{
+	border-left: 2px solid #FF7F50; /* coral */
+}
+.education{
+	border-left: 2px solid #81D8D0; /* tiffany blue */
+}
+.skills{
+	border-left: 2px solid #79BAEC; /* denim blue */
+}
+.favorite_quote{
+	border-left: 2px solid #F778A1; /* carnation pink */
+	margin-left: 3em;
+	margin-top: 1.5em;
+	margin-bottom: 1.7em;
+	padding-bottom: 5px;
+}
+
+
+.about_me ul, .education ul{
+	list-style-type: none;
+	margin-left: -0.7em;
+}
+.about_me li, .education li, .skills li{
+	margin:0.4em;
+}
+
+.skills li{
+	list-style-type: square;
+	margin-left: 1.5em;
+}
+.favorite_quote p{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 17px;
+	margin:5px;
+	margin-top: 1em;
+	margin-left: 1.5em;
+}
+
+form h3{
+	font-family: 'Aldrich', sans-serif;
+	margin-left: 2em;
+	margin-bottom: 1em;
+	margin-top: 2.3em;
+}
+form h4{
+	font-family: 'Actor', sans-serif;
+	margin-left: 4em;
+	margin-top: -0.5em;
+}
+

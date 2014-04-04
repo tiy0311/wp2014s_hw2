@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Emily Hsu's Contact Form</title>
+
+		<link href="hw2.css" rel="stylesheet" media="screen" />
+		<link href='http://fonts.googleapis.com/css?family=Gafata' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Actor' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="profile">
+				<h2><a href="./index.html">My Profile</a></h2>
+			</div>
+			<div class="contact">
+				<h2><a href="./contact.html">Contact Me</a></h2>
+			</div>
+		</div>
+		<div class="container">
+			<form action="https://docs.google.com/spreadsheet/formResponse?formkey=dDZ3dGNNLVFBTjR4bktTNGhQVEFfa3c6MA&amp;ifq" method="POST">
+				<h3>Hidden_id <br /><input type="hidden" name="entry.0.single" value="100703020" /></h3>
+
+				<h3>Gender</h3>
+				<h4><input type="radio" name="entry.1.group" checked="checked" value="boy" /> Boy<br />
+					<input type="radio" name="entry.1.group" value="girl" /> Girl</h4>
+
+				<h3>Favorite Food</h3>
+				<h4><input type="checkbox" name="entry.2.group" value="apple" /> Apple<br />
+					<input type="checkbox" name="entry.2.group" value="banana" /> Banana<br />
+					<input type="checkbox" name="entry.2.group" value="cherry" /> Cherry<br />
+					<input type="checkbox" name="entry.2.group" value="donut" /> Donut<br />
+					<input type="checkbox" name="entry.2.group" value="grape" /> Grape<br />
+					<input type="checkbox" name="entry.2.group" value="kiwi" /> Kiwi<br />
+					<input type="checkbox" name="entry.2.group" value="lemon" /> Lemon<br />
+					<input type="checkbox" name="entry.2.group" value="mango" /> Mango<br />
+					<input type="checkbox" name="entry.2.group" value="orange" /> Orange<br />
+					<input type="checkbox" name="entry.2.group" value="peach" /> Peach<br />
+					<input type="checkbox" name="entry.2.group" value="strawberry" /> Strawberry<br />
+					<input type="checkbox" name="entry.2.group" value="watermelon" /> Watermelon<br />
+				</h4>
+
+				<h3>Relationship</h3>
+				<h4><select name="entry.3.single">
+					<option value="single">Single</option>
+					<option value="dating">Dating</option>
+					<option value="married">Married</option>
+					<option value="hard-to-explain">Hard to explain</option></h4></select>
+
+				<h3>Email</h3>
+				<h4><input type="text" name="entry.4.single" /></h4>
+
+				<h3>Comments</h3>
+				<h4><textarea name="entry.5.single" rows="10" cols="50"></textarea></h4>
+				<br />
+				<h4><input type="submit" value="Submit" /></h4>
+			</form>
+		</div>
+	</body>
+</html>
