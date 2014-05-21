@@ -51,5 +51,16 @@
 				<h4><input name="submit" type="submit" value="Submit" /></h4>
 			</form>
 		</div>
+		<div id="fb-root"></div>
+		<script>
+			(function(d, s, id) {
+  				var js, fjs = d.getElementsByTagName(s)[0];
+  				if (d.getElementById(id)) return;
+  				js = d.createElement(s); js.id = id;
+  				js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&appId=1568273380065859&version=v2.0";
+  				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<div class="fb-comments" data-href="http://tiy0311.github.io/wp2014s_hw2/contact.html" data-numposts="5" data-colorscheme="light"></div>
 	</body>
 </html>
